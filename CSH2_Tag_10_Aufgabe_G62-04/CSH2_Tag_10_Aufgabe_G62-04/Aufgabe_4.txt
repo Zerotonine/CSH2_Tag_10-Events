@@ -1,0 +1,17 @@
+﻿/* Klasse CIA
+ * - Delegaten "TextanalyseEventHandler": void mit string Parameter
+ * - Event "GefährlichesWortGefunden"
+ * - Methode "Textanalyse": void mit string text und string suche als Parameter
+ *      Prüft, ob suche in text vorhanden ist. Wenn ja, wird das Event ausgelöst.
+ * 
+ * Klasse SWAT
+ * - Methode "Einsatz": void mit string grund als Parameter
+ *      Gibt grund + "! GO! GO! GO!" auf der Konsole aus
+ * 
+ * Klasse FoxNews
+ * - Methode "Eilmeldung": void mit string grund als Parameter
+ *      Gibt grund auf der Konsole aus
+ * 
+ * Im Main: CIA, SWAT und FoxNews instanziieren, Event mit Einsatz und Eilmeldung abonnieren und Textanalyse aufrufen. 
+ * 
+ */

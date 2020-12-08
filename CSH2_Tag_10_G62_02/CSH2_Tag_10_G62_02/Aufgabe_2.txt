@@ -1,0 +1,19 @@
+/* Schreiben Sie folgendes C# Programm:
+ * Sie haben eine "KI" in Ihrem Einkaufzentrum im Einsatz. 
+ * Jedes mal, wenn der Sensor an der Tür einen neuen Kunden bemerkt, soll die "KI" den Kunden grüßen.
+ * 
+ * Das werden wir durch verschiedene Klassen simulieren.
+ * Der Sender des Events ist das Einkaufzentrum mit dem Sensor.
+ * Dort wird ein Delegat (NeuerKundeEventHandler) mit Void und ohne Parameter definiert.
+ * Mit dem Delegaten wird das Event NeuerKundeHatDasGebäudeBetreten erzeugt.
+ * Die öffentliche Methode NeuerKundeBetrittDasGebäude löst das Event aus.
+ * 
+ * Empfänger für das Event sind die Klassen Mitarbeiter und Geschäftsführer. 
+ * Ja, das Einkaufzentrum wird von einer KI geführt.
+ * Um nun allen Empfängern die Methode, mit der sie auf das Event reagieren können, vorzuschreiben (das macht das Abonnieren leichter),
+ * implementieren wir das Interface IMitarbeiterBegrüßenKunde, welches über die Methode Grüßen() verfügt.
+ * Die Grüßen-Methode macht nichts anderes, als testweise eine Begrüßung auf dem Bildschirm auszugeben.
+ * Da die KI japanisch ist, sagt sie "Irasshaimase!" als Mitarbeiter und "Irasshaimase!!!" als Geschäftsführer.
+ * Zum Schluss erstellen wir in der Main ein paar Objekte unserer Klassen, abonnieren das Event und lassen einen Kunden in das Gebäude.
+ * 
+ */

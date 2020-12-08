@@ -1,0 +1,27 @@
+﻿/* Schreiben Sie folgendes C# Programm:
+ * Sie entwickeln einen Video Encoder und möchten, wenn das Encoding abgeschlossen ist, 
+ * eine Nachricht an den Benutzer über verschiedene Kanäle (Drucker, SMS, Email) verschicken.
+ * 
+ * Zuerst führen wir die Klasse Video ein, die über die öffentliche Property Name und einen Konstruktor verfügt.
+ * 
+ * Um dem Benutzer Informationen über das Encoding mitteilen zu können, brauchen wir eine eigene
+ * EventArgs Klasse, die wir VideoEventArgs nennen und die von EventArgs erben wird.
+ * VideoEventArgs hat die beiden Properties Video und Zeit, mit öffentlichen Gettern und privaten Settern.
+ * Im Konstruktor der VideoEventArgs wird das Video übergeben und der Property zugewiesen. 
+ * Zeit wird auf die aktuelle Zeit gesetzt.
+ *  
+ * Das Encoding werden wir in der Klasse VideoEncoder simulieren.
+ * Dort wird als erstes ein Event vom Typ EventHandler<VideoEventArgs> angelegt. 
+ * Die Angabe in den spitzen Klammern ist der Typ unserer EventArgs.
+ * Der Encoder verfügt weiterhin über die Void-Methode "Encode" die als Übergabewert ein Video-Objekt erhält.
+ * In der Methode werden zwei Bildschirmausgaben gemacht, die den Start und das Ende des Encodings darstellen
+ * und anschließend wird das Event aufgerufen.
+ * 
+ * Die Empfänger des Events sind die Klassen MailService, PrinterService und SMSService.
+ * Alle drei Klassen verfügen über die Methode "OnVideoEncoded", in der Informationen zum Sender, 
+ * Empfänger ("Verschicke SMS..." zum Beispiel) und die Daten der EventArgs ausgegeben werden.
+ * 
+ * In der Main instanziieren wir nun je ein Objekt vom Typ Video, Encoder, MailService, PrinterService und SMSService.
+ * Das Event des Encoders wird mit den OnVideoEncoded Methoden abonniert und das Encoding gestartet.
+ * 
+ */

@@ -1,0 +1,50 @@
+/*
+ *  Schreiben Sie ein C# Programm,
+ *  das die Klasse "InputKey" einführt.
+ *      Dort soll in einer Methode in einer Endlosschleife vom Benutzer 
+ *      ein tastendruck mit ReadKey(true) abgefragt werden.
+ * Führen Sie den Delegaten InputEventHandler(char c) und ein passendes Event ein.
+ *      Dieses Event soll nach jedem Tastendruck aufgerufen werden, wenn es aboniert wurde.
+ *      Machen Sie sich mit dieser Schreibweise vertraut InputEvent?.Invoke(c);
+ * Im Main soll nun das Event mit einer Methode aboniert werden.
+ *      Diese Methode reagiert auf jeden Tastendruck mit der Ausgabe
+ *      "Sie haben " + c + " gedrückt"
+ * 
+ * ILP:
+ *  Erweitern Sie Ihr Programm durch die Klasse Figur.
+ *      Figur hat drei öffentliche Properties "int PosX", "int PosY" und "char Zeichen".
+ *      Im Konstruktor soll das Zeichen mit einem übergebenen Wert initialisiert werden.
+ *      Außerdem werden PosX und PosY auf die Hälfte der Konsolen-Breite und Höhe gesetzt.
+ *  Erstellen Sie in Ihrer Klasse Program die Methode "ZeichneFigur", 
+ *  die als Übergabewert eine Figur erhält.
+ *      In dieser Methode setzen Sie den Cursor auf die X- und Y-Position der Figur und
+ *      schreiben an diese Stelle das Zeichen, wenn sich die Koordinaten noch innerhalb des Fensters befinden.
+ *  Ihre Event-Methode (Empfänger) ändern Sie nun so ab, 
+ *  dass sich die Figur durch Drücken der WASD Tasten auf dem Bildschirm bewegt.
+ *      (z.B. dadurch, dass Sie die X- und Y-Positionen anpassen)
+ *  Die Methode (Sender) in der InputKey-Klasse können Sie nun noch so erweitern, 
+ *  dass die Methode bzw. die Endlosschleife durch drücken der Escape-Taste beendet wird.
+ *      Hinweis: ConsoleKey.Escape
+ *
+ *  Erzeugen Sie nun im Main ein Objekt der Figur und testen Sie das Programm.
+ *  
+ *  Zweite Erweiterung:
+ *  Die Klasse Figur vererbt nun an die Klassen Spieler und Gegner
+ *  In der Klasse Gegner implementieren Sie eine statische Liste, in die jedes Gegner-Objekt über den Konstruktor eingetragen wird.
+ *  Die Methode "ZeichneFigur" wird in die Klasse Figur verschoben und mit virtual gekennzeichnet.
+ *  Um jetzt die Figuren zu zeichnen, implementieren Sie in der Program-Klasse die Methode "zeichne()", 
+ *  die nun zuerst für alle Gegner aus der Gegnerliste und dann für den Spieler die ZeichneFigur-Methode aufruft.
+ *  In der Klasse Spieler überschreiben Sie nun die Methode. 
+ *      Zuerst wird die Methode der Basisklasse aufgerufen, anschließend die Methode "checkKollision()",
+ *      die Sie ebenfalls in Spieler implementieren. 
+ *  Die Methode "checkKollision()" prüft nun jedes Element in der Gegnerliste, 
+ *  ob die Position des Gegners mit der eigenen übereinstimmt.
+ *      Ist dies der Fall, dann soll eine Methode "SagHallo(Figur figur)" aufgerufen werden, 
+ *      in der der Gegner gegrüßt wird (Eine Textausgabe soll am oberen Rand des Bildschirmes relativ zentriert erfolgen).
+ *      
+ *  Legen Sie in Ihrem Programm zwei Gegner-Objekte an, weisen Sie ihnen gültige Positionen auf dem Bildschirm zu
+ *  und probieren Sie die neuen Funktionalitäten aus.
+ *  
+ *  Wie Sie weiterhin das Programm erweitern, ist Ihnen überlassen. Sie können die Gegner sich bewegen lassen, sie bekämpfen, 
+ *  Punkte Zählen oder Hindernisse einbauen.
+ */

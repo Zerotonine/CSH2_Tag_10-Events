@@ -1,0 +1,13 @@
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.exe
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.deps.json
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.runtimeconfig.json
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.runtimeconfig.dev.json
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.dll
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\bin\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.pdb
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.AssemblyInfoInputs.cache
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.AssemblyInfo.cs
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.csproj.CoreCompileInputs.cache
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.dll
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.pdb
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.genruntimeconfig.cache
+C:\Users\Phil\source\repos\CSH2_Tag_10_Aufgabe_G62-04\CSH2_Tag_10_Aufgabe_G62-04\obj\Debug\netcoreapp3.1\CSH2_Tag_10_Aufgabe_G62-04.csprojAssemblyReference.cache

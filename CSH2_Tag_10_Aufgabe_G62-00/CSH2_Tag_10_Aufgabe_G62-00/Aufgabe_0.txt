@@ -1,0 +1,11 @@
+﻿/* Aufgabe 0 (Basics)
+ * Klasse "Person"
+ * - mit einem public void Delegaten "FeuerEventHandler" ohne Parameter
+ * - einem passenden Event "FeuerGerufen"
+ * - einer void Methode "FeuerRufen()", welche "Feuer!" auf der Konsole ausgibt, das Event auf null prüft und auslöst.
+ * Klasse "Feuerwehrmann"
+ * - mit einer void Methode "FeuerLöschen()" ohne Parameter, welche auf der Konsole "Feuer löschen!" ausgibt.
+ * 
+ * In der Main:
+ * Eine Person und einen Feuerwehrmann erstellen. Der Feuerwehrmann abonniert das "FeuerGerufen"-Event der Person mit seiner "FeuerLöschen"-Methode. Starten Sie die "FeuerRufen" Methode der Person.
+ */
